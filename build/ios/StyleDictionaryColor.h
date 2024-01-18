@@ -4,20 +4,24 @@
 //
 
 // Do not edit directly
-// Generated on Mon, 08 May 2023 07:37:37 GMT
+// Generated on Thu, 18 Jan 2024 12:43:47 GMT
 
 
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, StyleDictionaryColorName) {
-ColorColorsSemiRed,
-ColorColorsMultipleFills0,
-ColorColorsMultipleFills1,
-ColorColorsSingleBlue,
-ColorColorsRefBlue,
-ColorColorsEmpty,
-ColorColorsSpecialCharacters,
-ColorColorsSpecialCharactersNderung
+KdsTokensTextPrimary,
+KdsTokensTextInversed,
+KdsTokensBgPrimary,
+KdsTokensBgSecondary,
+KdsTokensBgBrandPrimary,
+KdsTokensFontSize14,
+KdsTokensFontSize16,
+KdsTokensFontSize18,
+KdsTokensFontSize20,
+KdsTokensLineHeight20,
+KdsTokensLineHeight24,
+KdsTokensLineHeight26
 };
 
 @interface StyleDictionaryColor : NSObject
