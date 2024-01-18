@@ -3,10 +3,11 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 18 Jan 2024 23:13:30 GMT
+// Generated on Thu, 18 Jan 2024 23:24:52 GMT
 
 
 #import <Foundation/Foundation.h>
 
 
-extern float const H3FontWeight;
+extern float const TypographyHeaderFontWeight;
+extern float const TypographyDescriptionFontWeight;

@@ -1,7 +1,9 @@
 
 // Do not edit directly
-// Generated on Thu, 18 Jan 2024 23:13:30 GMT
+// Generated on Thu, 18 Jan 2024 23:24:52 GMT
 
+$font-header: 700 16/20 Inter;
+$font-description: 400 16/24 Inter;
 $kds-text-primary: rgb(38, 38, 38);
 $kds-text-inversed: rgb(255, 255, 255);
 $kds-bg-primary: rgb(255, 255, 255);
@@ -9,21 +11,33 @@ $kds-bg-secondary: rgb(245, 245, 245);
 $kds-bg-brand-default: rgb(0, 173, 100);
 $kds-bg-brand-hover: rgb(0, 173, 100);
 $kds-bg-brand-active: rgb(0, 137, 80);
-$kds-font-size-14: rgb(255, 255, 255);
-$kds-font-size-16: rgb(255, 255, 255);
-$kds-font-size-18: rgb(255, 255, 255);
-$kds-font-size-20: rgb(255, 255, 255);
-$kds-line-height-20: rgb(255, 255, 255);
-$kds-line-height-24: rgb(255, 255, 255);
-$kds-line-height-26: rgb(255, 255, 255);
-$h3-font-size: 16px;
-$h3-text-decoration: none;
-$h3-font-family: Inter;
-$h3-font-weight: 700;
-$h3-font-style: normal;
-$h3-font-stretch: normal;
-$h3-letter-spacing: 0;
-$h3-line-height: 20px;
-$h3-paragraph-indent: 0;
-$h3-paragraph-spacing: 0;
-$h3-text-case: none;
+$kds-margin-m-8: 8px;
+$kds-margin-m-12: 12px;
+$kds-margin-m-16: 16px;
+$kds-margin-m-20: 20px;
+$kds-margin-m-24: 24px;
+$kds-radius-r-8: 8px;
+$kds-radius-r-12: 12px;
+$kds-radius-r-16: 16px;
+$typography-header-font-size: 16px;
+$typography-header-text-decoration: none;
+$typography-header-font-family: Inter;
+$typography-header-font-weight: 700;
+$typography-header-font-style: normal;
+$typography-header-font-stretch: normal;
+$typography-header-letter-spacing: 0;
+$typography-header-line-height: 20px;
+$typography-header-paragraph-indent: 0;
+$typography-header-paragraph-spacing: 0;
+$typography-header-text-case: none;
+$typography-description-font-size: 16px;
+$typography-description-text-decoration: none;
+$typography-description-font-family: Inter;
+$typography-description-font-weight: 400;
+$typography-description-font-style: normal;
+$typography-description-font-stretch: normal;
+$typography-description-letter-spacing: 0;
+$typography-description-line-height: 24px;
+$typography-description-paragraph-indent: 0;
+$typography-description-paragraph-spacing: 0;
+$typography-description-text-case: none;

@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 18 Jan 2024 23:13:30 GMT
+// Generated on Thu, 18 Jan 2024 23:24:52 GMT
 
 
 #import <UIKit/UIKit.h>
@@ -16,14 +16,7 @@ KdsBgPrimary,
 KdsBgSecondary,
 KdsBgBrandDefault,
 KdsBgBrandHover,
-KdsBgBrandActive,
-KdsFontSize14,
-KdsFontSize16,
-KdsFontSize18,
-KdsFontSize20,
-KdsLineHeight20,
-KdsLineHeight24,
-KdsLineHeight26
+KdsBgBrandActive
 };
 
 @interface StyleDictionaryColor : NSObject
