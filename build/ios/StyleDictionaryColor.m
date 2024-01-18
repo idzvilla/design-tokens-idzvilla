@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Thu, 18 Jan 2024 17:01:43 GMT
+// Generated on Thu, 18 Jan 2024 20:43:47 GMT
 
 
 #import "StyleDictionaryColor.h"
@@ -26,6 +26,8 @@
 #ffffffff,
 #f5f5f5ff,
 #00ad64ff,
+#00ad64ff,
+#008950ff,
 #ffffffff,
 #ffffffff,
 #ffffffff,
