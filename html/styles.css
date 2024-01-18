@@ -1,0 +1,69 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.page-wrap {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #009A59;
+}
+
+.content-wrap {
+  display: flex;
+  max-width: 344px;
+  padding: 24px;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 16px;
+  background-color: var(--kds-bg-primary);
+}
+
+.text-c {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+h3 {
+  color: var(--kds-text-primary);
+  font-size: var(--kds-h3);
+  font-weight: var(--kds-h3);
+  line-height: var(--kds-h3); /* 125% */
+}
+
+p {
+  color: var(--kds-text-primary);
+  font-size: var(--kds-p);
+  font-weight: var(--kds-p);
+  line-height: var(--kds-p); /* 150% */
+}
+
+.button {
+  display: flex;
+  height: 40px;
+  padding: 10px;
+  justify-content: center;
+  align-self: stretch;
+  border-radius: 8px;
+  background-color: var(--kds-bg-accent-green-default);
+  border: none;
+  cursor: pointer;
+  /*Font Settings */
+  color: var(--kds-text-inversed);
+  font-size: 14px;
+  font-weight: 600;
+  transition: ease-in-out 150ms;
+}
+
+.button:hover {
+  background-color: var(--kds-bg-accent-green-hover);
+}
+
+.button:active {
+  background-color: var(--kds-bg-accent-green-active);
+}
+
+/*# sourceMappingURL=styles.css.map */
