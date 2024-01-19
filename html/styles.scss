@@ -1,15 +1,16 @@
-@import 'build/scss/variables';
+@import '../build/scss/variables';
 
-body {
+  body {
     font-family: 'Inter', sans-serif;
   }
+
   .page-wrap {
     display: flex;
     width: 100%;
     height: 100vh;
     justify-content: center; 
     align-items: center;
-    background-color: $kds-bg-accent-green-hover;
+    background-color: $kds-bg-secondary;
   }
   
   .content-wrap {
@@ -19,7 +20,7 @@ body {
     flex-direction: column;
     gap: 16px;
     border-radius: 16px;
-    background-color: var(--kds-bg-primary);
+    background-color: $kds-bg-primary;
   }
   
   .text-c {
@@ -27,19 +28,18 @@ body {
     flex-direction: column;
     gap: 8px;
   }
-  
+
   h3 {
-    color: var(--kds-text-primary);
-    font-size: var(--kds-h3);
-    font-weight: var(--kds-h3);
-    line-height: var(--kds-h3); /* 125% */
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
   }
   
   p {
     color: var(--kds-text-primary);
-    font-size: var(--kds-p);
-    font-weight: var(--kds-p);
-    line-height: var(--kds-p); /* 150% */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
   }
   
 .button {
@@ -49,20 +49,20 @@ body {
     justify-content: center;
     align-self: stretch;
     border-radius: 8px;
-    background-color: var(--kds-bg-accent-green-default);
+    background-color: $kds-bg-brand-default;
     border: none;
     cursor: pointer;
     /*Font Settings */
-    color: var(--kds-text-inversed);
+    color: $kds-text-inversed;
     font-size: 14px;
     font-weight: 600;
     transition: ease-in-out 150ms;
   }
 
 .button:hover {
-    background-color: var(--kds-bg-accent-green-hover);
+    background-color: $kds-bg-brand-hover;
   }
 
 .button:active {
-    background-color: var(--kds-bg-accent-green-active);
+    background-color: $kds-bg-brand-active;
   }

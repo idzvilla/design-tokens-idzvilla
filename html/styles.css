@@ -8,7 +8,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-color: #009A59;
+  background-color: rgb(245, 245, 245);
 }
 
 .content-wrap {
@@ -18,7 +18,7 @@ body {
   flex-direction: column;
   gap: 16px;
   border-radius: 16px;
-  background-color: var(--kds-bg-primary);
+  background-color: rgb(255, 255, 255);
 }
 
 .text-c {
@@ -28,17 +28,16 @@ body {
 }
 
 h3 {
-  color: var(--kds-text-primary);
-  font-size: var(--kds-h3);
-  font-weight: var(--kds-h3);
-  line-height: var(--kds-h3); /* 125% */
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
 }
 
 p {
   color: var(--kds-text-primary);
-  font-size: var(--kds-p);
-  font-weight: var(--kds-p);
-  line-height: var(--kds-p); /* 150% */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 .button {
@@ -48,22 +47,22 @@ p {
   justify-content: center;
   align-self: stretch;
   border-radius: 8px;
-  background-color: var(--kds-bg-accent-green-default);
+  background-color: rgb(128, 0, 173);
   border: none;
   cursor: pointer;
   /*Font Settings */
-  color: var(--kds-text-inversed);
+  color: rgb(255, 255, 255);
   font-size: 14px;
   font-weight: 600;
   transition: ease-in-out 150ms;
 }
 
 .button:hover {
-  background-color: var(--kds-bg-accent-green-hover);
+  background-color: rgb(0, 173, 100);
 }
 
 .button:active {
-  background-color: var(--kds-bg-accent-green-active);
+  background-color: rgb(0, 137, 80);
 }
 
 /*# sourceMappingURL=styles.css.map */
