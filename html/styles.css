@@ -34,7 +34,7 @@ h3 {
 }
 
 p {
-  color: var(--kds-text-primary);
+  color: rgb(38, 38, 38);
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
